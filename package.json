@@ -3,7 +3,6 @@
   "name": "chef-food",
   "version": "1.0.0",
   "description": "food order app using react",
-  "main": "app.js",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
