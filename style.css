@@ -1,0 +1,173 @@
+.header {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* border: 1px solid grey; */
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+}
+
+.logo {
+    width: 99px;
+    margin-left: 30px;
+}
+
+.header-li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-li>ul {
+    display: flex;
+    padding: 8px;
+}
+
+.header-li>ul>li {
+    margin: 8px;
+    list-style: none;
+    font-weight: 300;
+    font-style: bold;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.header-li>ul>li:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.header-li>ul>button {
+    cursor: pointer;
+    margin: 8px;
+}
+
+
+input {
+    width: 25%;
+    height: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.res-cardAll {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-top: 19px;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.res-cardAll>.res-card {
+    /* border: 1px solid black; */
+    width: 280px;
+    height: 50vmin;
+    margin-left: 40px;
+    margin-top: 55px;
+    border-radius: 16px;
+    transition: 0.5s;
+    flex-wrap: wrap;
+    background: #f0f0f0;
+}
+
+.res-cardAll>.res-card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.res-cardAll>.res-card>.res-img {
+    /* border: 1px solid black; */
+    width: 93%;
+    height: 50%;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+}
+
+.res-img>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.res-cardAll>.res-card>.res-cuisines {
+    width: 90%;
+    height: 40%;
+    margin: 10px;
+    border-radius: 15px;
+    padding-left: 10px;
+
+}
+
+.res-cuisines>h4 {
+    margin-top: 7px;
+}
+
+
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    width: 280px;
+    height: 50vmin;
+    margin-left: 40px;
+    margin-top: 55px;
+    border-radius: 16px;
+    transition: 0.5s;
+    flex-wrap: wrap;
+    background: #f0f0f0;
+}
+
+.search-btn{
+    margin-left: 380px;
+    margin-top: 7px;
+    width: 210px;
+    height: 30px;
+    position: absolute;
+    border-radius: 15px;
+    border: none;
+    background: #ff9f1c;
+    cursor: pointer;
+}
+
+.search-btn1{
+    margin-left: 450px;
+    position: relative;
+}
+
+.search>button {
+    /* margin-left: 380px; */
+    margin-top: 5px;
+    width: 210px;
+    position: relative;
+    border-radius: 15px;
+    border: none;
+    background: #ff9f1c;
+    cursor: pointer;
+}
+
+.search>button:hover {
+    border: 1px solid #000;
+}
+
+
+
+
+.footer {
+    border: 1px solid black;
+    height: 10rem;
+    margin: 10px 0;
+}

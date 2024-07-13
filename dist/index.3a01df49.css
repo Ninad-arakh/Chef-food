@@ -1,0 +1,162 @@
+.header {
+  background: #f0f0f0;
+  justify-content: space-between;
+  width: 100%;
+  height: 88px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.logo {
+  width: 99px;
+  margin-left: 30px;
+}
+
+.header-li {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.header-li > ul {
+  padding: 8px;
+  display: flex;
+}
+
+.header-li > ul > li {
+  font-weight: 300;
+  font-style: bold;
+  margin: 8px;
+  font-size: 20px;
+  list-style: none;
+  transition: all .5s;
+}
+
+.header-li > ul > li:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.header-li > ul > button {
+  cursor: pointer;
+  margin: 8px;
+}
+
+input {
+  border-radius: 10px;
+  width: 25%;
+  height: 25px;
+  margin: 10px;
+  position: absolute;
+}
+
+.search {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.res-cardAll {
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 19px;
+  display: flex;
+  overflow: hidden;
+}
+
+.res-cardAll > .res-card {
+  background: #f0f0f0;
+  border-radius: 16px;
+  flex-wrap: wrap;
+  width: 280px;
+  height: 50vmin;
+  margin-top: 55px;
+  margin-left: 40px;
+  transition: all .5s;
+}
+
+.res-cardAll > .res-card:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+.res-cardAll > .res-card > .res-img {
+  border-radius: 15px;
+  width: 93%;
+  height: 50%;
+  margin: 10px;
+  display: flex;
+}
+
+.res-img > img {
+  object-fit: cover;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.res-cardAll > .res-card > .res-cuisines {
+  border-radius: 15px;
+  width: 90%;
+  height: 40%;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.res-cuisines > h4 {
+  margin-top: 7px;
+}
+
+.shimmer-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.shimmer-card {
+  background: #f0f0f0;
+  border-radius: 16px;
+  flex-wrap: wrap;
+  width: 280px;
+  height: 50vmin;
+  margin-top: 55px;
+  margin-left: 40px;
+  transition: all .5s;
+}
+
+.search-btn {
+  cursor: pointer;
+  background: #ff9f1c;
+  border: none;
+  border-radius: 15px;
+  width: 210px;
+  height: 30px;
+  margin-top: 7px;
+  margin-left: 380px;
+  position: absolute;
+}
+
+.search-btn1 {
+  margin-left: 450px;
+  position: relative;
+}
+
+.search > button {
+  cursor: pointer;
+  background: #ff9f1c;
+  border: none;
+  border-radius: 15px;
+  width: 210px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.search > button:hover {
+  border: 1px solid #000;
+}
+
+.footer {
+  border: 1px solid #000;
+  height: 10rem;
+  margin: 10px 0;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
