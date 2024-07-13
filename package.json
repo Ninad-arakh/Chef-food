@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "food order app using react",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build index.html",
     "deploy": "gh-pages -b master -d build",
     "start": "parcel index.html",
     "build": "parcel build",
